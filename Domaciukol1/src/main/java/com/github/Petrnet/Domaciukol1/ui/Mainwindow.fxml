@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.Tooltip?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="416.0" prefWidth="707.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.141">
+  <columnConstraints>
+    <ColumnConstraints hgrow="SOMETIMES" maxWidth="380.0" minWidth="380.0" prefWidth="380.0" />
+    <ColumnConstraints hgrow="SOMETIMES" maxWidth="380.0" minWidth="380.0" prefWidth="380.0" />
+  </columnConstraints>
+  <rowConstraints>
+    <RowConstraints minHeight="20.0" prefHeight="20.0" vgrow="SOMETIMES" />
+    <RowConstraints minHeight="20.0" prefHeight="20.0" vgrow="SOMETIMES" />
+  </rowConstraints>
+   <children>
+      <HBox prefHeight="208.0" prefWidth="397.0">
+         <children>
+            <Button fx:id="button1" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="100.0" prefWidth="100.0">
+               <graphic>
+                  <ImageView fx:id="pic1" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+               <tooltip>
+                  <Tooltip fx:id="tooltip1" text="Empty Tooltip" />
+               </tooltip>
+               <HBox.margin>
+                  <Insets left="5.0" top="70.0" />
+               </HBox.margin>
+            </Button>
+            <Button fx:id="button2" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="100.0" prefWidth="100.0">
+               <graphic>
+                  <ImageView fx:id="pic2" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+               <tooltip>
+                  <Tooltip fx:id="tooltip2" text="Empty Tooltip" />
+               </tooltip>
+               <HBox.margin>
+                  <Insets left="20.0" top="70.0" />
+               </HBox.margin>
+            </Button>
+            <Button fx:id="button3" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="100.0" prefWidth="100.0">
+               <graphic>
+                  <ImageView fx:id="pic3" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+               <tooltip>
+                  <Tooltip fx:id="tooltip3" text="Empty Tooltip" />
+               </tooltip>
+               <HBox.margin>
+                  <Insets left="20.0" right="15.0" top="70.0" />
+               </HBox.margin>
+            </Button>
+         </children>
+      </HBox>
+      <HBox prefHeight="100.0" prefWidth="200.0" GridPane.columnIndex="1">
+         <children>
+            <Button fx:id="button4" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="100.0" prefWidth="100.0">
+               <graphic>
+                  <ImageView fx:id="pic4" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+               <tooltip>
+                  <Tooltip fx:id="tooltip4" text="Empty Tooltip" />
+               </tooltip>
+               <HBox.margin>
+                  <Insets left="-15.0" top="70.0" />
+               </HBox.margin>
+            </Button>
+            <Button fx:id="button5" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="100.0" prefWidth="100.0">
+               <graphic>
+                  <ImageView fx:id="pic5" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+               <tooltip>
+                  <Tooltip fx:id="tooltip5" text="Empty Tooltip" />
+               </tooltip>
+               <HBox.margin>
+                  <Insets left="20.0" top="70.0" />
+               </HBox.margin>
+            </Button>
+            <Button fx:id="button6" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="100.0" prefWidth="100.0">
+               <graphic>
+                  <ImageView fx:id="pic6" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+               <tooltip>
+                  <Tooltip fx:id="tooltip6" text="Empty Tooltip" />
+               </tooltip>
+               <HBox.margin>
+                  <Insets left="20.0" top="70.0" />
+               </HBox.margin>
+            </Button>
+         </children>
+      </HBox>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+         <children>
+            <Button fx:id="newword" layoutY="176.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" text="New word" AnchorPane.leftAnchor="-100.0" AnchorPane.rightAnchor="328.0" />
+            <TextArea fx:id="vystupniText" layoutX="-306.0" layoutY="-6.0" prefHeight="158.0" prefWidth="578.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</GridPane>
