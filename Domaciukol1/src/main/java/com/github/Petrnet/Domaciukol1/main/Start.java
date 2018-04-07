@@ -29,7 +29,7 @@ public class Start extends Application  {
 
 	    	Homecontroller controller = loader.getController(); 	
 	    	Game game = new Game();
-	    	controller.inicializuj(game, this);
+	    	controller.inicializuj(game);
 
 	    	primaryStage.setScene(new Scene(root));
 	    	primaryStage.show();
